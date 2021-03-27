@@ -2,10 +2,11 @@
   box-sizing: content-box;
   height: 300px;
   vertical-align: middle;
+  box-sizing: content-box;
 }
 
 .hidden {
-  display: none
+  display: none;
 }
 
 .line-container {
@@ -19,7 +20,7 @@
   box-sizing: content-box;
   z-index: 10;
   // Debugging collor
-  //border: 0.1px solid blue;
+  //border: 0.1px solid blue
 }
 
 .bordered-box {
@@ -34,7 +35,6 @@
   box-sizing: content-box;
   background-color: green;
   border-radius: 1000px;
-  box-shadow: 3px 4px 5px 0px #888;
 }
 
 .container {

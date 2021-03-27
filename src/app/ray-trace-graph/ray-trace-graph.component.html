@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <div class="container one">
+    <div #rotativeBar class="line-container" [style]="rotativeBarStyle">
+      <div class="bordered-box"></div>
+    </div>
+    <div #bubble class="bubble"></div>
+  </div>
+  <div class="container two">
+    <div class="subelement" *ngFor="let elem of [].constructor(5); let i = index" (mouseenter)="onMouseEnter($event)" (mouseleave)="onMouseLeave()">
+    </div>
+  </div>
+  <span #bullet class="bullet"></span>
+  <span #bullet2 class="bullet"></span>
+</div>
